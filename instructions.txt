@@ -1,0 +1,55 @@
+Pulse Pro v1.8.3
+
+There are two methods in which Pulse Pro can be used. You can use it with an existing website and only use Pulse Pro for the backend OR you can use the included front-end template with Pulse Pro for the backend. Each usage case has slightly different instructions so choose the proper one below for your setup.
+
+
+
+
+
+********** Using Pulse Pro with an existing site **********
+
+Installation:
+1. Unzip and upload only the pulsepro folder to the root of your domain.
+2. Go to yourdomain.com/pulsepro. (Default password is 'demo')
+3. Edit your options in the settings tab.
+
+Usage:
+Copy the embed code at the bottom of a block, blog, gallery or form and paste it into any .php page in which you want that content to appear.
+
+
+
+
+
+********** Using Pulse Pro with the included template **********
+
+Installation:
+1. Unzip and upload the contents of pulsepro_all folder to the root of your domain. Now if you go to yourdomain.com, you will see the Pulse Pro front-end template up and running.
+2. To use the backend, go to yourdomain.com/pulsepro. (Default password is 'demo')
+3. Edit your options in the settings tab.
+
+Usage:
+The front-end template is meant to be starting point which you can customize and add your own content to. 
+-To change the logo, replace template/img/logo.png with your own logo. 
+-To change the header color or other colors, edit template/style.css.
+-To add a new page, just copy and rename on of the existing pages and change the content.  
+-To make this new page show up in the navigation, edit template/nav.php. 
+
+
+
+
+
+********** Troubleshooting **********
+
+There are two main points that usually solve 90% of tech support issues.
+
+1. Be sure to set the "data" folder permissions to 755 recursively, meaning the folder itself as well as all files and folders within it. Most ftp clients allow you to set this in one pass.  Some servers may need 777 if 755 does not work.
+
+2. If you renamed the pulsepro folder name to something else, change it on the settings page. If the pulsepro folder is not in the root, but in a sub-folder, this must also be reflected.  For example, if you have yourdomain.com/test/pulsepro, then the folder name in settings must be written as test/pulsepro not just pulsepro.
+
+
+
+
+
+********** Support **********
+
+For support, please go to http://pulsecms.com/support.php
