@@ -52,13 +52,19 @@
 <h2 class="slabtextdone email"><span class="slabtext">h a n n a h s o w d @ g m a i l &middot; c o m</span></h2>
 <h2 class="slabtextdone number"><span class="slabtext">1640 Bush Street</span></h2>
 <h2 class="slabtextdone email"><span class="slabtext">San Francisco &middot; California &middot; 94109</span></h2>
-<img src="img/BottomDivider.png" class="responsiveimage" style="padding-top: 1%">
+<img src="img/BottomDivider.png" class="responsiveimage" style="padding-top: 1%; padding-bottom: 9%;">
+
+<div class="grid-3">&nbsp;</div>
+<div class="grid-half">
+<div class="grid-4"><a href="http://www.facebook.com/hannahsowdskincareandmassage" target="_blank"><img src="img/facebook_flat.png" class="responsiveimage"></a></div>
+<div class="grid-4">&nbsp;</div>
+<div class="grid-4"><a href="http://twitter.com/#!/hannahskincare" target="_blank"><img src="img/twitter_flat.png" class="responsiveimage"></a></div>
+</div>
+<div class="grid-3">&nbsp;</div>
+
 </div>
 <div class="grid-2">&nbsp;</div>
-<div id="social-links">
-<a href="http://www.facebook.com/hannahsowdskincareandmassage" target="_blank" id="facebook">Facebook</a>
-<a href="http://twitter.com/#!/hannahskincare" target="_blank" id="twitter">Twitter</a>
-</div>
+
 
 <footer>
 <p>Content copyright 2009-2013. Hannah Sowd, L.M.T. All rights reserved</p>
