@@ -66,8 +66,9 @@ td { vertical-align: top; }
 /* ALL STYLES BEGIN */
 
 body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font:16px/1.8 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
+	width: 80%;
 	background-image:url('../img/body-bg2.jpg');
 	background-position:center;
 	-webkit-background-size: cover;
@@ -128,6 +129,14 @@ header h1 a#home-header{
 	text-indent:-9999px;
 }
 
+h1 {
+	text-align:left;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 300%;
+}
+
 
 nav {display:block;width:100%; background-color:#fff; padding-top:10px;
 }
@@ -165,16 +174,34 @@ span.divider{
 #top-divider{background-position:0px -88px;margin-top: 5px;}
 #bottom-divider{background-position:0px -118px;margin-top: 20px;}
 
-ul#contact-info {
+#contact-info {
 	display:block;
 	margin:0 auto;
 	height: 260px;
 	width:535px;
 	list-style:none;
-	text-indent: -9999px;
+	text-indent: 0;
+	text-align: justify;
 	background-image:url('../img/sprite.jpg');
 	background-repeat:no-repeat;
 	background-position:-0px -145px;
+}
+
+#contact-info li {
+	text-transform: uppercase;
+	display: inline-block;
+	width: 100%;
+}
+
+#contact-info .break {
+	width: 100%;
+	height: 0;
+}
+
+#contact-info:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
 }
 
 div#social-links {
@@ -344,3 +371,22 @@ div#right-column p {
 }
 
 span.light-grey {color:#959595;}
+
+.slabtexted .slabtext{
+	display:-moz-inline-box;
+	display:inline-block;
+	white-space:nowrap;
+}
+.slabtextinactive .slabtext{
+	display:inline;
+	white-space:normal;
+	font-size:1em !important;
+	letter-spacing:inherit !important;
+	word-spacing:inherit !important;
+	*letter-spacing:0 !important;
+	*word-spacing:0 !important;
+}
+.slabtextdone .slabtext{
+	display:block;
+	line-height:0.9;
+}

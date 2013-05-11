@@ -21,7 +21,7 @@
 <script src="js/libs/modernizr-2.5.3.min.js"></script>
 
 </head>
-<body style="background-image:none;">
+<body class="slabtexted" style="background-image:none;">
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 <header>
@@ -45,14 +45,12 @@
 
 <span class="divider" id="top-divider"></span>
 
-<a href="https://maps.google.com/maps?client=safari&oe=UTF-8&q=1640+bush+street+san+francisco+ca&ie=UTF-8&hq=&hnear=0x808580bfde80a4e1:0xe21002305c980ca6,1640+Bush+St,+San+Francisco,+CA+94109&gl=us&ei=h5fiT57gM8qU2AXZ89jjCw&ved=0CAwQ8gEwAA" target="_blank">
-<ul id="contact-info">
-<li>415-830-4227</li>
-<li>hannahsowd@gmail.com</li>
-<li>1640 Bush Street</li>
-<li>San Francisco California 94109</li>
-</ul>
-</a>
+
+<h2 class="slabtextdone"><span class="slabtext">415.830.4227</span></h2>
+<h2 class="slabtextdone"><span class="slabtext">hannahsowd@gmail &middot; com</span></h2>
+<h2 class="slabtextdone"><span class="slabtext">1640 Bush Street</span></h2>
+<h2 class="slabtextdone"><span class="slabtext">San Francisco &middot; California &middot; 94109</span></h2>
+
 
 <span class="divider" id="bottom-divider"></span>
 
@@ -62,16 +60,33 @@
 </div>
 
 <footer>
-<p>Content copyright 2009-2012. Hannah Sowd, L.M.T. All rights reserved</p>
+<p>Content copyright 2009-2013. Hannah Sowd, L.M.T. All rights reserved</p>
 </footer>
 
 </div>
   
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/libs/jquery.slabtext.min.js"></script>
+  <script>
+    // Function to slabtext the H2 headings
+    
+        $("h2").slabText({
+            // Don't slabtext the headers if the viewport is under 380px
+            "viewportBreakpoint":380
+        });
+    
+    
+    // Called one second after the onload event for the demo (as I'm hacking the
+    // fontface load event a bit here)
+
+    // Please do not do this in a production environment - you should really use
+    // google WebFont loader events (or something similar) for better control
+   
+  </script>
 
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
+
 
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
