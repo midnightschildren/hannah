@@ -26,14 +26,14 @@
 </head>
 <body class="slabtexted" style="background-image:none;">
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
-<header>
+<div class="page-wrap">
+<header class="grid-whole">
 <h1><a href="index.php" id="home-header">Hannah Sowd | Skin Care &amp; Massage</a></h1>
 </header>
 
 <!-- Navigation, IDs are used to create certain widths of the <a> tag's. Designers choice not to use a font that has not been created into a web font yet. Thus this page being produced with a bunch of back ground images -->
 
-	<nav>
+	<nav class="grid-whole">
 	<ul>
 	<li><a href="about-hannah.php" id="nav-about">WHO IS HANNAH</a></li>
 	<li><a href="http://www.genbook.com/bookings/slot/reservation/30051977?bookingSourceId=1000" target="_blank" id="nav-shedule">SCHEDULE/BOOK</a></li>
@@ -44,19 +44,17 @@
 	</nav>
 
   
-<div id="wrap">
-
-<span class="divider" id="top-divider"></span>
-
-
-<h2 class="slabtextdone"><span class="slabtext">415.830.4227</span></h2>
-<h2 class="slabtextdone"><span class="slabtext">h a n n a h s o w d @ g m a i l &middot; c o m</span></h2>
-<h2 class="slabtextdone"><span class="slabtext">1640 Bush Street</span></h2>
-<h2 class="slabtextdone"><span class="slabtext">San Francisco &middot; California &middot; 94109</span></h2>
-
-
-<span class="divider" id="bottom-divider"></span>
-
+<div id="wraps" class="grid-whole">
+<div class="grid-2">&nbsp;</div>
+<div class="grid-8">
+<img src="img/TopDivider.png" class="responsiveimage">
+<h2 class="slabtextdone number"><span class="slabtext">415.830.4227</span></h2>
+<h2 class="slabtextdone email"><span class="slabtext">h a n n a h s o w d @ g m a i l &middot; c o m</span></h2>
+<h2 class="slabtextdone number"><span class="slabtext">1640 Bush Street</span></h2>
+<h2 class="slabtextdone email"><span class="slabtext">San Francisco &middot; California &middot; 94109</span></h2>
+<img src="img/BottomDivider.png" class="responsiveimage" style="padding-top: 1%">
+</div>
+<div class="grid-2">&nbsp;</div>
 <div id="social-links">
 <a href="http://www.facebook.com/hannahsowdskincareandmassage" target="_blank" id="facebook">Facebook</a>
 <a href="http://twitter.com/#!/hannahskincare" target="_blank" id="twitter">Twitter</a>
@@ -66,6 +64,7 @@
 <p>Content copyright 2009-2013. Hannah Sowd, L.M.T. All rights reserved</p>
 </footer>
 
+</div>
 </div>
   
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>

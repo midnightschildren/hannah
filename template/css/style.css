@@ -77,6 +77,11 @@ body {
 	background-size: cover;
 }
 
+.page-wrap {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 p {
 	display:block;
 	padding: 25px;
@@ -138,12 +143,27 @@ h1 {
 }
 
 h2 {
-	font-family: "league-gothic", Helvetica, Arial, sans-serif;
+	font-family: "proxima-nova-alt-ext-cond",sans-serif;
 	font-style: normal;
 	text-align:left;
 	font-size: 300%;
 	text-transform: uppercase;
 	font-weight: 400;
+}
+
+.number {
+	font-weight: 700;
+	color: #cfcfcf;
+}
+
+.email {
+	color: #04b6da;
+	font-weight: 300;
+}
+
+.responsiveimage {
+	width: 100%;
+	height: auto;
 }
 
 nav {display:block;width:100%; background-color:#fff; padding-top:10px;
