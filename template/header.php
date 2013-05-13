@@ -15,13 +15,16 @@
 <link rel="shortcut icon" href="favicon.ico">
 
 <link rel="stylesheet" href="template/css/style.css">
+<link rel="stylesheet" href="template/css/grid.css">
 
 <link rel="apple-touch-icon-precomposed.png" href="../apple-touch-icon-precomposed.png">
 
 <script src="template/js/libs/modernizr-2.5.3.min.js"></script>
+<script type="text/javascript" src="//use.typekit.net/tlm7ich.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 </head>
-<body>
+<body class="inner-pages">
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 <header>

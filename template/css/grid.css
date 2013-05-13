@@ -70,6 +70,10 @@
     box-sizing: content-box;
     float: none;
 }
+
+.logo-padded {
+    padding: 8% 4% 0% 4%;
+}
 .flow-opposite {
     float: right;
 }
@@ -88,7 +92,7 @@
     box-sizing: content-box;
     float: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 540px) {
     .s-grid-all, .s-grid-1, .s-grid-2, .s-grid-3, .s-grid-quarter, .s-grid-4, .s-grid-third, .s-grid-5, .s-grid-6, .s-grid-half, .s-grid-7, .s-grid-8, .s-grid-two-thirds, .s-grid-9, .s-grid-three-quarters, .s-grid-10, .s-grid-11, .s-grid-12, .s-grid-whole {
     margin: 0;
     clear: none;
@@ -98,6 +102,15 @@
     box-sizing: border-box;
     *behavior: url(boxsizing.htc);
 }
+
+nav ul {
+    font-size: 1.1em;
+}
+
+.logo-padded {
+    padding: 8% 2% 0% 2%;
+}
+
 .s-grid-1 {
     width: 8.33333%}
 .s-grid-2 {
@@ -176,7 +189,8 @@
 .s-hidden {
     display: none;
 }
-}@media (min-width: 481px) and (max-width: 800px) {
+}
+@media (min-width: 541px) and (max-width: 800px) {
     .m-grid-all, .m-grid-1, .m-grid-2, .m-grid-3, .m-grid-quarter, .m-grid-4, .m-grid-third, .m-grid-5, .m-grid-6, .m-grid-half, .m-grid-7, .m-grid-8, .m-grid-two-thirds, .m-grid-9, .m-grid-three-quarters, .m-grid-10, .m-grid-11, .m-grid-12, .m-grid-whole {
     margin: 0;
     clear: none;
@@ -186,6 +200,15 @@
     box-sizing: border-box;
     *behavior: url(boxsizing.htc);
 }
+
+nav ul {
+    font-size: 1.5em;
+}
+
+.logo-padded {
+    padding: 8% 3% 0% 3%;
+}
+
 .m-grid-1 {
     width: 8.33333%}
 .m-grid-2 {
@@ -264,7 +287,9 @@
 .m-hidden {
     display: none;
 }
-}@media (min-width: 801px) {
+
+}
+@media (min-width: 801px) {
     .l-grid-all, .l-grid-1, .l-grid-2, .l-grid-3, .l-grid-quarter, .l-grid-4, .l-grid-third, .l-grid-5, .l-grid-6, .l-grid-half, .l-grid-7, .l-grid-8, .l-grid-two-thirds, .l-grid-9, .l-grid-three-quarters, .l-grid-10, .l-grid-11, .l-grid-12, .l-grid-whole {
     margin: 0;
     clear: none;
@@ -353,3 +378,31 @@
     display: none;
 }
 }
+
+@media print,
+  (-o-min-device-pixel-ratio: 5/4),
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 120dpi) {
+
+.s-hidden {
+    display: none;
+}
+
+.logo-padded {
+    padding: 8% 4% 0% 4%;
+}
+
+.s-padded-inner-sides {
+    padding: 0 1em;
+}
+.s-grid-12, .s-grid-whole {
+    width: 100%}
+
+nav ul {
+    font-size: 2.75em;
+    font-size: 44px;
+}
+
+}
+
+
