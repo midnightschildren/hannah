@@ -8,7 +8,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<title>Hannah Sowd | Skin Care & Massage | San Francisco California</title>
+<title>Hannah Sowd | Skin Care &amp; Massage | San Francisco California</title>
 
 <meta name="description" content="">
 
@@ -28,6 +28,8 @@
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 <header>
-<h1><a href="index.php">Hannah Sowd | Skin Care & Massage</a></h1>
+<div class="logo-padded-ab">
+<h1><a href="index.php">Hannah Sowd | Skin Care &amp; Massage</a></h1>
+</div>
 </header>
 

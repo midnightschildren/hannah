@@ -74,6 +74,26 @@
 .logo-padded {
     padding: 8% 4% 0% 4%;
 }
+
+.logo-padded-ab {
+    padding: 8% 0% 8% 0%;
+}
+
+header h1 a{
+    width: 25%;
+    padding-bottom:25%;
+}
+
+.padded-righter {
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.padded-lefter {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
 .flow-opposite {
     float: right;
 }
@@ -109,6 +129,27 @@ nav ul {
 
 .logo-padded {
     padding: 8% 2% 0% 2%;
+}
+
+.logo-padded-ab {
+    padding: 8% 0% 8% 0%;
+}
+
+header h1 a{
+    width: 29%;
+    padding-bottom:29%;
+}
+
+.padded-righter {
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.padded-lefter {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
 }
 
 .s-grid-1 {
@@ -205,8 +246,27 @@ nav ul {
     font-size: 1.5em;
 }
 
+.padded-righter {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.padded-lefter {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .logo-padded {
     padding: 8% 3% 0% 3%;
+}
+
+.logo-padded-ab {
+    padding: 8% 0% 8% 0%;
+}
+
+header h1 a{
+    width: 27%;
+    padding-bottom:27%;
 }
 
 .m-grid-1 {
@@ -392,11 +452,28 @@ nav ul {
     padding: 8% 4% 0% 4%;
 }
 
+.logo-padded-ab {
+    padding: 8% 0% 8% 0%;
+}
+
+header h1 a{
+    width: 25%;
+    padding-bottom:25%;
+}
+
 .s-padded-inner-sides {
     padding: 0 1em;
 }
 .s-grid-12, .s-grid-whole {
     width: 100%}
+
+.inner-pages #wraps {
+    padding-top: 150px;
+}
+
+.padded-lefter {
+    padding-top: 50px;
+}
 
 nav ul {
     font-size: 2.75em;

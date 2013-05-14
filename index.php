@@ -63,13 +63,13 @@
 <h2 class="slabtextdone email"><span class="slabtext">San Francisco &nbsp;&middot;&nbsp; California &nbsp;&middot;&nbsp; 94109</span></h2>
 <img src="img/BottomDivider.png" class="responsiveimage" style="padding-top: 1%; padding-bottom: 9%;">
 <div class="grid-whole">
-<div class="grid-3">&nbsp;</div>
-<div class="grid-half">
+<div class="grid-4">&nbsp;</div>
+<div class="grid-4">
 <div class="grid-4"><a href="http://www.facebook.com/hannahsowdskincareandmassage" target="_blank"><img src="img/facebook_flat.png" class="responsiveimage"></a></div>
 <div class="grid-4">&nbsp;</div>
 <div class="grid-4"><a href="http://twitter.com/#!/hannahskincare" target="_blank"><img src="img/twitter_flat.png" class="responsiveimage"></a></div>
 </div>
-<div class="grid-3">&nbsp;</div>
+<div class="grid-4">&nbsp;</div>
 </div>
 <footer class="grid-whole">
 
@@ -123,7 +123,7 @@
     function slabTextHeadlines() {
         $("h2").slabText({
             // Don't slabtext the headers if the viewport is under 380px
-            "viewportBreakpoint":380
+            "viewportBreakpoint":300
         });
     };
     

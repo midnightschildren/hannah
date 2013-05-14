@@ -53,8 +53,9 @@ td { vertical-align: top; }
 /* ALL STYLES BEGIN */
 
 body {
-	font:16px/1.8 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 300;
+	font:16px/1.8 "proxima-nova", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	max-width: 960px;
 	width: 100%;
 	margin: 0 auto;
@@ -103,15 +104,15 @@ header {
 
 header h1 a{
 	display:block;
-	width: 100%;
-	height:265px;
-	background-image: url('../img/logo.png');
-	background-repeat:no-repeat;
-	background-position:center;
+	margin: 0 auto;
+	height:0;
+	background-image: url('../img/logob.png');
+	background-position: 0 0;
+	background-size: 200%;
 	text-indent:-9999px;
 }
 
-header h1 a:hover{background-image: url('../img/return-home.png');}
+header h1 a:hover{background-position: 100% 0;}
 
 header h4 a#home-header{
 	display:block;
@@ -172,7 +173,8 @@ nav {display:block;width:100%; background-color:#fff; padding-top:6%;
 .inner-pages nav {
 	position: absolute;
 	left: 0;
-	padding-top: 0;
+	padding-top: 1em;
+	padding-bottom: .5em;
 }
 
 .inner-pages nav ul {
@@ -268,8 +270,6 @@ a#twitter{background-position:-365px -415px;margin-left:160px;}
 
 div.column {
 	display:block;
-	width: 405px;
-	margin-top: 50px;
 	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
 	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
@@ -278,8 +278,12 @@ div.column {
 	background-color:#fff;
 }
 
-div#left-column {float:left;}
-div#right-column {float:right; padding-top: 35px; padding-bottom:30px;}
+.inner-pages #wraps {
+	padding-top: 100px;
+}
+
+div#left-column {}
+div#right-column {padding-top: 35px; padding-bottom:30px;}
 
 div#left-column p span {font-weight: 900;}
 
@@ -298,7 +302,7 @@ div#about-hannah-img {
 
 ul#training-list {
 	display:block;
-	width:400px;
+	
 	height:110px;
 	list-style:none;
 	text-transform:uppercase;
@@ -311,7 +315,6 @@ ul#training-list {
 ul#training-list li {
 	display:block;
 	float:left;
-	width:200px;
 	padding: 2px 0px;
 }
 
