@@ -107,7 +107,7 @@ header h1 a{
     text-align: right;
 }
 .row {
-    margin: 0 -0.5em;
+    margin: 0 -0.5em 0 0.5em;
     width: auto;
     box-sizing: content-box;
     float: none;
@@ -447,6 +447,10 @@ header h1 a{
 .s-hidden {
     display: none;
 }
+
+  body {
+    font-size: 200%; /* 1em = 20px */
+  }
 
 .logo-padded {
     padding: 8% 4% 0% 4%;
