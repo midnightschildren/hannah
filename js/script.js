@@ -38,6 +38,11 @@ $("document").ready(function(){
 		$("#right-column").load("jessnerspeel.html");
 	})
 	
+	$("#tcapeel").click(function(event) {
+		event.preventDefault()
+		$("#right-column").load("tcapeel.html");
+	})
+
 	$("#hairremoval").click(function(event) {
 		event.preventDefault()
 		$("#right-column").load("hairremoval.html");

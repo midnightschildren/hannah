@@ -45,6 +45,11 @@ $("document").ready(function(){
 		event.preventDefault()
 		$("#right-column").load("jessnerspeel.php");
 	})
+
+	$("#tcapeel").click(function(event) {
+		event.preventDefault()
+		$("#right-column").load("tcapeel.php");
+	})
 	
 	$("#hairremoval").click(function(event) {
 		event.preventDefault()

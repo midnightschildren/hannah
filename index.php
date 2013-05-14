@@ -42,10 +42,10 @@
 	<div class="grid-2 m-grid-1 s-hidden">&nbsp;</div>
 	<div class="grid-8 m-grid-10 s-grid-12 s-padded-inner-sides">	
 	<ul>
-	<li class="grid-3"><a href="about-hannah.php" id="nav-about">WHO IS HANNAH</a></li>
-	<li class="grid-3"><div class="centerblock"><a href="http://www.genbook.com/bookings/slot/reservation/30051977?bookingSourceId=1000" target="_blank" id="nav-shedule">SCHEDULE/BOOK</a></div></li>
+	<li class="grid-1"><a href="about-hannah.php" id="nav-about">ABOUT</a></li>
+	<li class="grid-4"><div class="centerblock"><a href="http://www.genbook.com/bookings/slot/reservation/30051977?bookingSourceId=1000" target="_blank" id="nav-shedule">SCHEDULE/BOOK</a></div></li>
 	<li class="grid-2"><div class="centerblock"><a href="services.php" id="nav-services">SERVICES</a></div></li>
-	<li class="grid-3"><div class="centerblock"><a href="http://blog.hannahsowd.com" target="_blank" id="nav-blog">READ HER BLOG</a></div></li>
+	<li class="grid-4"><div class="centerblock little-ad"><a href="http://blog.hannahsowd.com" target="_blank" id="nav-blog">READ HANNAH'S BLOG</a></div></li>
 	<li class="grid-1"><a href="http://shop.hannahsowd.com/" target="_blank" id="nav-shop">SHOP</a></li>
 	</ul>
 	</div>
@@ -58,7 +58,7 @@
 <div class="grid-8 m-grid-10 s-grid-12 s-padded-inner-sides">
 <img src="img/TopDivider.png" class="responsiveimage">
 <h2 class="slabtextdone number"><span class="slabtext">415 . 830 . 4227</span></h2>
-<h2 class="slabtextdone email"><span class="slabtext">h a n n a h s o w d @ g m a i l &middot; c o m</span></h2>
+<h2 class="slabtextdone email"><span class="slabtext">hannah @ hannahsowd &middot; com</span></h2>
 <h2 class="slabtextdone number"><span class="slabtext">1640 Bush Street</span></h2>
 <h2 class="slabtextdone email"><span class="slabtext">San Francisco &nbsp;&middot;&nbsp; California &nbsp;&middot;&nbsp; 94109</span></h2>
 <img src="img/BottomDivider.png" class="responsiveimage" style="padding-top: 1%; padding-bottom: 9%;">
@@ -123,7 +123,7 @@
     function slabTextHeadlines() {
         $("h2").slabText({
             // Don't slabtext the headers if the viewport is under 380px
-            "viewportBreakpoint":300
+            "precision":3
         });
     };
     

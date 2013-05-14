@@ -167,7 +167,7 @@ h2 {
 	display: inline-block;
 }
 
-nav {display:block;width:100%; background-color:#fff; padding-top:6%;
+nav {display:block;width:100%; background-color:#fff; padding-top:4%;
 }
 
 .inner-pages nav {
@@ -180,6 +180,10 @@ nav {display:block;width:100%; background-color:#fff; padding-top:6%;
 .inner-pages nav ul {
 	max-width: 960px;
 	margin: 0 auto;
+}
+
+.little-ad {
+	word-spacing: -2px;
 }
 
 nav ul {
