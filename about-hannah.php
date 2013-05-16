@@ -10,7 +10,7 @@
 <li class="grid-1"><a href="about-hannah.php" id="active-nav-about">ABOUT</a></li>
 <li class="grid-4"><div class="centerblock"><a href="http://www.genbook.com/bookings/slot/reservation/30051977?bookingSourceId=1000" target="_blank" id="nav-shedule">SCHEDULE/BOOK</a></div></li>
 <li class="grid-2"><div class="centerblock"><a href="services.php" id="nav-services">SERVICES</a></div></li>
-<li class="grid-4"><div class="centerblock"><a href="http://blog.hannahsowd.com" target="_blank" id="nav-blog">READ HANNAH'S BLOG</a></div></li>
+<li class="grid-4"><div class="centerblock"><a href="http://blog.hannahsowd.com" target="_blank" id="nav-blog">HANNAH'S BLOG</a></div></li>
 <li class="grid-1"><a href="http://shop.hannahsowd.com/" target="_blank" id="nav-shop">SHOP</a></li>
 
 </div>

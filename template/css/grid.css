@@ -87,6 +87,7 @@ header h1 a{
 .padded-righter {
     padding-right: 4%;
     padding-left: 4%;
+    
 }
 
 .padded-lefter {
@@ -124,7 +125,7 @@ header h1 a{
 }
 
 nav ul {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .logo-padded {
@@ -243,7 +244,7 @@ header h1 a{
 }
 
 nav ul {
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .padded-righter {
@@ -472,7 +473,7 @@ header h1 a{
     width: 100%}
 
 .inner-pages #wraps {
-    padding-top: 150px;
+    padding-top: 175px;
 }
 
 .padded-lefter {
@@ -480,8 +481,8 @@ header h1 a{
 }
 
 nav ul {
-    font-size: 2.75em;
-    font-size: 44px;
+    font-size: 3em;
+    font-size: 48px;
 }
 
 }

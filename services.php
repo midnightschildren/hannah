@@ -10,7 +10,7 @@
 <li class="grid-1"><a href="about-hannah.php" id="nav-about">ABOUT</a></li>
 <li class="grid-4"><div class="centerblock"><a href="http://www.genbook.com/bookings/slot/reservation/30051977?bookingSourceId=1000" target="_blank" id="nav-shedule">SCHEDULE/BOOK</a></div></li>
 <li class="grid-2"><div class="centerblock"><a href="services.php" id="active-nav-services">SERVICES</a></div></li>
-<li class="grid-4"><div class="centerblock little-ad"><a href="http://blog.hannahsowd.com" target="_blank" id="nav-blog">READ HANNAH'S BLOG</a></div></li>
+<li class="grid-4"><div class="centerblock little-ad"><a href="http://blog.hannahsowd.com" target="_blank" id="nav-blog">HANNAH'S BLOG</a></div></li>
 <li class="grid-1"><a href="http://shop.hannahsowd.com/" target="_blank" id="nav-shop">SHOP</a></li>
 	
 </div>
@@ -22,20 +22,20 @@
 <div id="wraps" class="grid-whole">
 
 <!-- left Content -->
-<div class="grid-7 s-grid-12 padded-righter">
-<div class="column grid-whole spc" style="padding-bottom: 30px; padding-top: 37px;" id="left-column">
-
-<?php include("pulsepro/data/blocks/Services/Services-List.html"); ?>
-
-</div>
-</div>
-<!-- Right Content -->
-<div class="grid-5 s-grid-12 padded-lefter">
-<div class="column" id="right-column">
+<div class="grid-5 s-grid-12 padded-righter flow-opposite">
+<div class="column" style="padding-bottom: 30px; padding-top: 37px;" id="right-column">
 
 <?php include("pulsepro/data/blocks/Services/Hours-of-Business.html"); ?>
 
 <?php include("pulsepro/data/blocks/Services/Types-of-Payment.html"); ?>
+
+</div>
+</div>
+<!-- Right Content -->
+<div class="grid-7 s-grid-12 padded-lefter flow-opposite">
+<div class="column grid-whole spc" style="padding-bottom: 30px; padding-top: 37px;" id="left-column">
+
+<?php include("pulsepro/data/blocks/Services/Services-List.html"); ?>
 
 </div>
 </div>
