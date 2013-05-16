@@ -9,7 +9,7 @@
 
 </div>
 
-<script src="template/js/script.js"></script>
+<script src="template/js/script.min.js"></script>
 
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

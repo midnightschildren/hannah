@@ -5,54 +5,26 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
 <title>Hannah Sowd | Skin Care &amp; Massage | San Francisco California</title>
-
 <meta name="description" content="">
-
 <link rel="shortcut icon" href="favicon.ico">
-
-<link rel="stylesheet" href="template/css/style.css">
-
+<link rel="stylesheet" href="template/css/style2.css">
 <script type="text/javascript" src="//use.typekit.net/tlm7ich.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>!window.jQuery && document.write('<script src="template/js/libs/jquery-1.8.3.min.js"><\/script>')</script>
 <script src="template/js/libs/modernizr-slabtext-2.5.3.min.js"></script>
-
 <script type="text/javascript">
-  (function() {
-    $(document).ready(function() {
-      // As soon as the DOM is ready, make the example invisible
-      
-  });
-    try {
-      Typekit.load({
-        active: function() {            
-            $("h2").slabText({
-            "precision":3
-        });
-        
-        },
-        inactive: function() {          
-          $("h2").slabText({
-            "precision":3
-        });
-        }
-      })
-    } catch(e) {}
-  })();
+  (function(){$(document).ready(function(){});try{Typekit.load({active:function(){$("h2").slabText({precision:3})},inactive:function(){$("h2").slabText({precision:3})}})}catch(e){}})();
 </script>
-
 </head>
 <body class="slabtexted" style="background-image:none;">
 <div class="page-wraps">
 <header class="grid-whole">
 <div class="grid-4">&nbsp;</div>
 <div class="grid-4 logo-padded">
-<h4><a href="index.php" id="home-header"><img src="img/logo-homec.gif" class="responsiveimage"></a></h4>
+<h4><a href="index.php" id="home-header"><img src="img/logo-homec.jpg" class="responsiveimage"></a></h4>
 <h4><a href="index.php" id="home-caption">Hannah Sowd | Skin Care &amp; Massage</a></h4>
 </div>
 <div class="grid-4">&nbsp;</div>
@@ -69,9 +41,7 @@
 	</ul>
 	</div>
 	<div class="grid-2 m-grid-1 s-hidden">&nbsp;</div>
-	</nav>
-
-  
+	</nav>  
 <div id="wraps" class="grid-whole">
 <div class="grid-2 m-grid-1 s-hidden">&nbsp;</div>
 <div class="grid-8 m-grid-10 s-grid-12 s-padded-inner-sides">
@@ -93,27 +63,18 @@
 <div class="grid-4">&nbsp;</div>
 </div>
 <footer class="grid-whole">
-
 <h2 class="slabtextdone"><span class="slabtext copyr">Content copyright 2009-2013. Hannah Sowd, L.M.T. All rights reserved</span></h2>
-
-
 </footer>
 </div>
 <div class="grid-2 m-grid-1 s-hidden">&nbsp;</div>
-
-
 </div>
 </div>
-
-<script src="template/js/script.js"></script>
-
-
+<script src="template/js/script.min.js"></script>
 <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
-
 </body>
 </html>

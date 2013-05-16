@@ -15,7 +15,7 @@
 
 <link rel="shortcut icon" href="favicon.ico">
 
-<link rel="stylesheet" href="template/css/style.css">
+<link rel="stylesheet" href="template/css/style2.css">
 
 <link rel="apple-touch-icon-precomposed.png" href="../apple-touch-icon-precomposed.png">
 
@@ -25,27 +25,7 @@
 <script src="template/js/libs/modernizr-slabtext-2.5.3.min.js"></script>
 
 <script type="text/javascript">
-  (function() {
-    $(document).ready(function() {
-      // As soon as the DOM is ready, make the example invisible
-      
-  });
-    try {
-      Typekit.load({
-        active: function() {            
-            $("h2").slabText({
-            "precision":3
-        });
-        
-        },
-        inactive: function() {          
-          $("h2").slabText({
-            "precision":3
-        });
-        }
-      })
-    } catch(e) {}
-  })();
+(function(){$(document).ready(function(){});try{Typekit.load({active:function(){$("h2").slabText({precision:3})},inactive:function(){$("h2").slabText({precision:3})}})}catch(e){}})();
 </script>
 
 </head>
